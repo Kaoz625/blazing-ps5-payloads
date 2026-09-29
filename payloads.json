@@ -1,235 +1,265 @@
 {
- "name": "Blazing (verified)",
- "payloads": [
-  {
-   "name": "websrv",
-   "filename": "websrv_v0.34.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/websrv_v0.34.elf",
-   "description": "Web server port 8080. OUR MAC TOOLS NEED IT, and it serves this repo. Put in the boot list.",
-   "version": "v0.34",
-   "category": "1 Boot list - add these",
-   "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "klogsrv",
-   "filename": "klogsrv_v0.9.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/klogsrv_v0.9.elf",
-   "description": "Crash log on port 3232, so Claude can see why something broke. Put in the boot list.",
-   "version": "v0.9",
-   "category": "1 Boot list - add these",
-   "checksum": "e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "shsrv",
-   "filename": "shsrv_v0.20.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/shsrv_v0.20.elf",
-   "description": "Remote shell on port 2323; our tools use it. Put in the boot list.",
-   "version": "v0.20",
-   "category": "1 Boot list - add these",
-   "checksum": "fa4ccb2587bb61be317df0d001f668b17ebf9b4aafad87acf691b1fb8da0bd2d",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "ps5-web-file-manager",
-   "filename": "ps5-web-file-manager_v1.9.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/ps5-web-file-manager_v1.9.elf",
-   "description": "Browser file manager; our download pipeline unpacks .rar/.7z/.zip with it. Put in the boot list.",
-   "version": "v1.9",
-   "category": "1 Boot list - add these",
-   "checksum": "711cb076e887fcd55d973ade8b84bb6c22720be295bfde18e32761f6e0479a3e",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "wfm-7zip-helper",
-   "filename": "wfm-7zip-helper_v26.03-1.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/wfm-7zip-helper_v26.03-1.elf",
-   "description": "7-Zip add-on for the web file manager (newest). Load with it.",
-   "version": "v26.03-1",
-   "category": "1 Boot list - add these",
-   "checksum": "7a6369489143c2b8887331a7235a6a77dd5667c794c4234973f8159fed92fe24",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "PS5SXHelper (Twiso)",
-   "filename": "PS5SXHelper.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/PS5SXHelper.elf",
-   "description": "Needed for PS5SX2, the 120 fps PS2 emulator. Same file we ran on 25 Sep.",
-   "version": "25 Sep",
-   "category": "1 Boot list - add these",
-   "checksum": "65b9a92331ed5a00a8425062baa2e3019328515110f5879343ce514a1afb5e12",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "SMPlusGui",
-   "filename": "SMPlusGui_v1.0.1.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/SMPlusGui_v1.0.1.elf",
-   "description": "Web page to control ShadowMountPlus (mount/unmount games).",
-   "version": "v1.0.1",
-   "category": "2 Tools - load when needed",
-   "checksum": "a63ed90a4dd1c1ec1a777fdb82b0ab950180e1668344380082918fbdbaececa5",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "ps5-date-time-sync",
-   "filename": "ps5-date-time-sync_v1.0.0.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/ps5-date-time-sync_v1.0.0.elf",
-   "description": "Sets the clock from the internet. Run once now - the clock is wrong since the restore.",
-   "version": "v1.0.0",
-   "category": "2 Tools - load when needed",
-   "checksum": "91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "PS5 Game Compressor",
-   "filename": "game-compressor_v1.0.4.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/game-compressor_v1.0.4.elf",
-   "description": "Compress, unpack, check and repair ShadowMountPlus games.",
-   "version": "v1.0.4",
-   "category": "2 Tools - load when needed",
-   "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "ps5-app-dumper",
-   "filename": "ps5-app-dumper_v1.11.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/ps5-app-dumper_v1.11.elf",
-   "description": "Dump installed games to USB (EchoStretch, newest).",
-   "version": "v1.11",
-   "category": "2 Tools - load when needed",
-   "checksum": "18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "ps5upload",
-   "filename": "ps5upload_v5.35.0.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/ps5upload_v5.35.0.elf",
-   "description": "Fast PC-to-PS5 transfers with the PS5Upload PC app (newest stable, 27 Sep).",
-   "version": "v5.35.0",
-   "category": "2 Tools - load when needed",
-   "checksum": "94a996dc7adaaf264545ffc3b7f4fb471a52569630ea5538ee18d20039c4213b",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "Launchpad",
-   "filename": "launchpad-install_v0.2.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/launchpad-install_v0.2.elf",
-   "description": "Installs a home-screen menu tile for homebrew apps.",
-   "version": "v0.2",
-   "category": "2 Tools - load when needed",
-   "checksum": "5f53da68491229b52e18f84017975be3753487fee6e0f22c55d8e7a11fafed02",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "FGG-Unpack",
-   "filename": "FGG-Unpack_v0.1.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/FGG-Unpack_v0.1.elf",
-   "description": "Unzips .zip/.7z on the console.",
-   "version": "v0.1",
-   "category": "2 Tools - load when needed",
-   "checksum": "e8c8e57bbda31b5d16d131797aac6f83b555cae8d439b1f475c952f3d9554eff",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "OffAct",
-   "filename": "OffAct_v0.4.2.elf",
-   "description": "Activates a local PS5 user account offline (no PSN). Run once per new user.",
-   "version": "v0.4.2",
-   "category": "2 Tools - load when needed",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/OffAct_v0.4.2.elf",
-   "checksum": "db250c1f3cf01b879d0d5e22e77b2e24c096ba1e2da20ead2ab758165ba5ab4f",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "PS5Library agent",
-   "filename": "ps5library-agent_v0.2.54.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/ps5library-agent_v0.2.54.elf",
-   "description": "Helper for the PS5Library app (PKG on USB: PS5-PKGS). Pre-release, 27 Sep.",
-   "version": "v0.2.54",
-   "category": "2 Tools - load when needed",
-   "checksum": "ddd201c1041e90d736231f9dc18ae54d3b64c2500985573e9585c17dcb3cc55f",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "FGG-XSense (Xbox controller)",
-   "filename": "FGG-XSense_v1.1.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/FGG-XSense_v1.1.elf",
-   "description": "Use an Xbox controller on the PS5.",
-   "version": "v1.1",
-   "category": "3 Controllers and audio",
-   "checksum": "55195ccb02fbdbfa002e9188b0eff72d7d2e6de6c7a1c91666f88c6c9ff0d6c0",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "FGG-PlayPods (Bluetooth audio)",
-   "filename": "FGG-PlayPods_v1.0.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/FGG-PlayPods_v1.0.elf",
-   "description": "PS5 sound on a normal Bluetooth headset or earbuds.",
-   "version": "v1.0",
-   "category": "3 Controllers and audio",
-   "checksum": "9ee1958ec24e4a927992fea9ee202f5a173756091bd3abc02ebf4d2d686211a4",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "PoorDS4",
-   "filename": "PoorDS4_rc44.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/PoorDS4_rc44.elf",
-   "description": "Use a wireless PS4 DualShock 4 in PS5 games.",
-   "version": "v0.1.0-rc44",
-   "category": "3 Controllers and audio",
-   "checksum": "a077fe7a1defbe6918538b834eaa502a6b4239d7feff58c8fa4ec06cd325d9a8",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "PoorDS4 status",
-   "filename": "PoorDS4-status_rc44.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/PoorDS4-status_rc44.elf",
-   "description": "Shows PoorDS4 status.",
-   "version": "v0.1.0-rc44",
-   "category": "3 Controllers and audio",
-   "checksum": "9195c512853538ec3ccf0207f68ed4898f386c6fb624c54d8fa959cef1a8b906",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "PoorDS4 stop",
-   "filename": "PoorDS4-stop_rc44.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/PoorDS4-stop_rc44.elf",
-   "description": "Stops PoorDS4.",
-   "version": "v0.1.0-rc44",
-   "category": "3 Controllers and audio",
-   "checksum": "ffdce4964f0d34a2b9be7cb65e6ad345d5beb582dcdf94d0214cde6bc79acd0d",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "A53 PPR install (Drakmor)",
-   "filename": "a53_ppr_install_1140_20.09.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/a53_ppr_install_1140_20.09.elf",
-   "description": "Lets fake-signed apps (Spectrum, RetroArch pkg...) open on FW 10.20. One-shot, gone after reboot. With kstuff test9 it crashed a stacked boot on 27 Sep.",
-   "version": "1140 20.09",
-   "category": "4 FPKG - test ALONE after a full restart",
-   "checksum": "5d664382ea83e11f0326d9f0544af215a9f329e27fbd1edc483446e0d7b8ee13",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "kstuff-lite 1.11 (EchoStretch)",
-   "filename": "kstuff-lite_v1.11.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/kstuff-lite_v1.11.elf",
-   "description": "Kernel patch with fpkg code (newest stable). Run it BEFORE onionHEN, then onionHEN skips its own. Never 2 kstuff.",
-   "version": "v1.11",
-   "category": "4 FPKG - test ALONE after a full restart",
-   "checksum": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779",
-   "last_update": "2026-09-27"
-  },
-  {
-   "name": "kstuff 1.12 fpkg dr-test9 (Drakmor)",
-   "filename": "kstuff-1.12-fpkg-dr-test9.elf",
-   "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/kstuff-1.12-fpkg-dr-test9.elf",
-   "description": "Drakmor's fpkg kstuff (Discord). TEST build - crashed 2 jailbreaks on 27 Sep. Only instead of kstuff-lite, never both.",
-   "version": "1.12-fpkg-dr-test9",
-   "category": "4 FPKG - test ALONE after a full restart",
-   "checksum": "c1d32ad8152e02aa4b6f3f0f072746799451b0a8aa3687ee1a8c647c1515710d",
-   "last_update": "2026-09-27"
-  }
- ]
+  "name": "Blazing (verified)",
+  "payloads": [
+    {
+      "name": "etaHEN",
+      "filename": "etaHEN.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/etaHEN.elf",
+      "description": "etaHEN AIO homebrew enabler: app-jailbreak daemon (grants network to homebrew), kstuff, FTP:1337. This is the 'loader' Blazing Games needs. Newer .elf build (29 Sep).",
+      "version": "2.6+",
+      "category": "1 Boot list - add these",
+      "checksum": "26034dfbb88dd8be344fee1876c387bfcba0386edb079014e18ec25580368f6d",
+      "last_update": "2026-09-29"
+    },
+    {
+      "name": "websrv",
+      "filename": "websrv_v0.34.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/websrv_v0.34.elf",
+      "description": "Web server port 8080. OUR MAC TOOLS NEED IT, and it serves this repo. Put in the boot list.",
+      "version": "v0.34",
+      "category": "1 Boot list - add these",
+      "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "klogsrv",
+      "filename": "klogsrv_v0.9.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/klogsrv_v0.9.elf",
+      "description": "Crash log on port 3232, so Claude can see why something broke. Put in the boot list.",
+      "version": "v0.9",
+      "category": "1 Boot list - add these",
+      "checksum": "e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "shsrv",
+      "filename": "shsrv_v0.20.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/shsrv_v0.20.elf",
+      "description": "Remote shell on port 2323; our tools use it. Put in the boot list.",
+      "version": "v0.20",
+      "category": "1 Boot list - add these",
+      "checksum": "fa4ccb2587bb61be317df0d001f668b17ebf9b4aafad87acf691b1fb8da0bd2d",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "ps5-web-file-manager",
+      "filename": "ps5-web-file-manager_v1.9.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/ps5-web-file-manager_v1.9.elf",
+      "description": "Browser file manager; our download pipeline unpacks .rar/.7z/.zip with it. Put in the boot list.",
+      "version": "v1.9",
+      "category": "1 Boot list - add these",
+      "checksum": "711cb076e887fcd55d973ade8b84bb6c22720be295bfde18e32761f6e0479a3e",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "wfm-7zip-helper",
+      "filename": "wfm-7zip-helper_v26.03-1.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/wfm-7zip-helper_v26.03-1.elf",
+      "description": "7-Zip add-on for the web file manager (newest). Load with it.",
+      "version": "v26.03-1",
+      "category": "1 Boot list - add these",
+      "checksum": "7a6369489143c2b8887331a7235a6a77dd5667c794c4234973f8159fed92fe24",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "PS5SXHelper (Twiso)",
+      "filename": "PS5SXHelper.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/PS5SXHelper.elf",
+      "description": "Needed for PS5SX2, the 120 fps PS2 emulator. Same file we ran on 25 Sep.",
+      "version": "25 Sep",
+      "category": "1 Boot list - add these",
+      "checksum": "65b9a92331ed5a00a8425062baa2e3019328515110f5879343ce514a1afb5e12",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "SMPlusGui",
+      "filename": "SMPlusGui_v1.0.1.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/SMPlusGui_v1.0.1.elf",
+      "description": "Web page to control ShadowMountPlus (mount/unmount games).",
+      "version": "v1.0.1",
+      "category": "2 Tools - load when needed",
+      "checksum": "a63ed90a4dd1c1ec1a777fdb82b0ab950180e1668344380082918fbdbaececa5",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "ps5-date-time-sync",
+      "filename": "ps5-date-time-sync_v1.0.0.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/ps5-date-time-sync_v1.0.0.elf",
+      "description": "Sets the clock from the internet. Run once now - the clock is wrong since the restore.",
+      "version": "v1.0.0",
+      "category": "2 Tools - load when needed",
+      "checksum": "91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "PS5 Game Compressor",
+      "filename": "game-compressor_v1.0.4.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/game-compressor_v1.0.4.elf",
+      "description": "Compress, unpack, check and repair ShadowMountPlus games.",
+      "version": "v1.0.4",
+      "category": "2 Tools - load when needed",
+      "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "ps5-app-dumper",
+      "filename": "ps5-app-dumper_v1.11.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/ps5-app-dumper_v1.11.elf",
+      "description": "Dump installed games to USB (EchoStretch, newest).",
+      "version": "v1.11",
+      "category": "2 Tools - load when needed",
+      "checksum": "18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "ps5upload",
+      "filename": "ps5upload_v5.35.0.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/ps5upload_v5.35.0.elf",
+      "description": "Fast PC-to-PS5 transfers with the PS5Upload PC app (newest stable, 27 Sep).",
+      "version": "v5.35.0",
+      "category": "2 Tools - load when needed",
+      "checksum": "94a996dc7adaaf264545ffc3b7f4fb471a52569630ea5538ee18d20039c4213b",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "Launchpad",
+      "filename": "launchpad-install_v0.2.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/launchpad-install_v0.2.elf",
+      "description": "Installs a home-screen menu tile for homebrew apps.",
+      "version": "v0.2",
+      "category": "2 Tools - load when needed",
+      "checksum": "5f53da68491229b52e18f84017975be3753487fee6e0f22c55d8e7a11fafed02",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "FGG-Unpack",
+      "filename": "FGG-Unpack_v0.1.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/FGG-Unpack_v0.1.elf",
+      "description": "Unzips .zip/.7z on the console.",
+      "version": "v0.1",
+      "category": "2 Tools - load when needed",
+      "checksum": "e8c8e57bbda31b5d16d131797aac6f83b555cae8d439b1f475c952f3d9554eff",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "OffAct",
+      "filename": "OffAct_v0.4.2.elf",
+      "description": "Activates a local PS5 user account offline (no PSN). Run once per new user.",
+      "version": "v0.4.2",
+      "category": "2 Tools - load when needed",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/OffAct_v0.4.2.elf",
+      "checksum": "db250c1f3cf01b879d0d5e22e77b2e24c096ba1e2da20ead2ab758165ba5ab4f",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "PS5Library agent",
+      "filename": "ps5library-agent_v0.2.54.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/ps5library-agent_v0.2.54.elf",
+      "description": "Helper for the PS5Library app (PKG on USB: PS5-PKGS). Pre-release, 27 Sep.",
+      "version": "v0.2.54",
+      "category": "2 Tools - load when needed",
+      "checksum": "ddd201c1041e90d736231f9dc18ae54d3b64c2500985573e9585c17dcb3cc55f",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "FGG-XSense (Xbox controller)",
+      "filename": "FGG-XSense_v1.1.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/FGG-XSense_v1.1.elf",
+      "description": "Use an Xbox controller on the PS5.",
+      "version": "v1.1",
+      "category": "3 Controllers and audio",
+      "checksum": "55195ccb02fbdbfa002e9188b0eff72d7d2e6de6c7a1c91666f88c6c9ff0d6c0",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "FGG-PlayPods (Bluetooth audio)",
+      "filename": "FGG-PlayPods_v1.0.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/FGG-PlayPods_v1.0.elf",
+      "description": "PS5 sound on a normal Bluetooth headset or earbuds.",
+      "version": "v1.0",
+      "category": "3 Controllers and audio",
+      "checksum": "9ee1958ec24e4a927992fea9ee202f5a173756091bd3abc02ebf4d2d686211a4",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "PoorDS4",
+      "filename": "PoorDS4_rc44.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/PoorDS4_rc44.elf",
+      "description": "Use a wireless PS4 DualShock 4 in PS5 games.",
+      "version": "v0.1.0-rc44",
+      "category": "3 Controllers and audio",
+      "checksum": "a077fe7a1defbe6918538b834eaa502a6b4239d7feff58c8fa4ec06cd325d9a8",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "PoorDS4 status",
+      "filename": "PoorDS4-status_rc44.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/PoorDS4-status_rc44.elf",
+      "description": "Shows PoorDS4 status.",
+      "version": "v0.1.0-rc44",
+      "category": "3 Controllers and audio",
+      "checksum": "9195c512853538ec3ccf0207f68ed4898f386c6fb624c54d8fa959cef1a8b906",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "PoorDS4 stop",
+      "filename": "PoorDS4-stop_rc44.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/PoorDS4-stop_rc44.elf",
+      "description": "Stops PoorDS4.",
+      "version": "v0.1.0-rc44",
+      "category": "3 Controllers and audio",
+      "checksum": "ffdce4964f0d34a2b9be7cb65e6ad345d5beb582dcdf94d0214cde6bc79acd0d",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "A53 PPR install (Drakmor)",
+      "filename": "a53_ppr_install_1140_20.09.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/a53_ppr_install_1140_20.09.elf",
+      "description": "Lets fake-signed apps (Spectrum, RetroArch pkg...) open on FW 10.20. One-shot, gone after reboot. With kstuff test9 it crashed a stacked boot on 27 Sep.",
+      "version": "1140 20.09",
+      "category": "4 FPKG - test ALONE after a full restart",
+      "checksum": "5d664382ea83e11f0326d9f0544af215a9f329e27fbd1edc483446e0d7b8ee13",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "kstuff-lite 1.11 (EchoStretch)",
+      "filename": "kstuff-lite_v1.11.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/kstuff-lite_v1.11.elf",
+      "description": "Kernel patch with fpkg code (newest stable). Run it BEFORE onionHEN, then onionHEN skips its own. Never 2 kstuff.",
+      "version": "v1.11",
+      "category": "4 FPKG - test ALONE after a full restart",
+      "checksum": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "kstuff 1.12 fpkg dr-test9 (Drakmor)",
+      "filename": "kstuff-1.12-fpkg-dr-test9.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/kstuff-1.12-fpkg-dr-test9.elf",
+      "description": "Drakmor's fpkg kstuff (Discord). TEST build - crashed 2 jailbreaks on 27 Sep. Only instead of kstuff-lite, never both.",
+      "version": "1.12-fpkg-dr-test9",
+      "category": "4 FPKG - test ALONE after a full restart",
+      "checksum": "c1d32ad8152e02aa4b6f3f0f072746799451b0a8aa3687ee1a8c647c1515710d",
+      "last_update": "2026-09-27"
+    },
+    {
+      "name": "ProsperoMgr",
+      "filename": "ProsperoMgr_v1.1.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/ProsperoMgr_v1.1.elf",
+      "description": "All-in-one PS5 manager (files, apps, payloads, settings).",
+      "version": "v1.1",
+      "category": "2 Tools - load when needed",
+      "checksum": "e7a6bb544adb2fb2a61aa9cc83b0ad15f70b32d7511a3de0f1fb88812f11983c",
+      "last_update": "2026-09-29"
+    },
+    {
+      "name": "PS-Play",
+      "filename": "PSPlay_v2.1.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/PSPlay_v2.1.elf",
+      "description": "PS Remote Play homebrew for jailbroken PS5.",
+      "version": "v2.1",
+      "category": "2 Tools - load when needed",
+      "checksum": "e3392379d5bc6ca4e44cb0d2a1d8921083b2c3ea480725f68378831874542d8d",
+      "last_update": "2026-09-29"
+    }
+  ]
 }
