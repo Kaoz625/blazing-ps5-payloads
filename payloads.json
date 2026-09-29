@@ -2,10 +2,10 @@
   "name": "Blazing (verified)",
   "payloads": [
     {
-      "name": "etaHEN",
+      "name": "etaHEN (Blazing 29Sep)",
       "filename": "etaHEN.elf",
       "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/etaHEN.elf",
-      "description": "etaHEN AIO homebrew enabler: app-jailbreak daemon (grants network to homebrew), kstuff, FTP:1337. This is the 'loader' Blazing Games needs. Newer .elf build (29 Sep).",
+      "description": "etaHEN app-jailbreak build staged by Markus 29 Sep (etaHEN.elf). Grants network to homebrew (PPSA99202/99203). Unique name so it is not hidden behind Official's older 2.5B.",
       "version": "2.6+",
       "category": "1 Boot list - add these",
       "checksum": "26034dfbb88dd8be344fee1876c387bfcba0386edb079014e18ec25580368f6d",
