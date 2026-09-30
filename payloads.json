@@ -103,13 +103,13 @@
     },
     {
       "name": "ps5-app-dumper",
-      "filename": "ps5-app-dumper_v1.11.elf",
-      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/ps5-app-dumper_v1.11.elf",
-      "description": "Dump installed games to USB (EchoStretch, newest).",
-      "version": "v1.11",
+      "filename": "ps5-app-dumper_v2.00.elf",
+      "url": "https://raw.githubusercontent.com/Kaoz625/blazing-ps5-payloads/main/payloads/ps5-app-dumper_v2.00.elf",
+      "description": "Dump installed games to USB with a web UI on :8081, dump queue and DLC (EchoStretch, newest).",
+      "version": "v2.00",
       "category": "2 Tools - load when needed",
-      "checksum": "18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0",
-      "last_update": "2026-09-27"
+      "checksum": "b6fea71afb8937fcd1a933116c620e989acba25b7049eaeaa00cdc1bd604d686",
+      "last_update": "2026-09-29"
     },
     {
       "name": "ps5upload",
